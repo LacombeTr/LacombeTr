@@ -39,5 +39,5 @@ WebApp de thermobarométrie, permettant de mesurer et analyser les conditions th
 
 ## 📊 Statistiques GitHub
 
-![Tristan's GitHub stats](https://github-readme-stats.vercel.app/api?username=LacombeTr&show_icons=true&theme=monokai)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LacombeTr&layout=compact&theme=monokai)
+![Tristan's GitHub stats](https://github-readme-stats.vercel.app/api?username=LacombeTr&show_icons=true&theme=monokai&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LacombeTr&layout=compact&theme=monokai&count_private=true)

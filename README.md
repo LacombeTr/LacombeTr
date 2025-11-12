@@ -27,6 +27,8 @@ Ancien volcanologue, je me suis reconverti dans le développement web. Mon objec
 ### [Thermobar](https://github.com/LacombeTr/thermoBarHub-FrontEnd)  
 WebApp de thermobarométrie, permettant de mesurer et analyser les conditions thermiques et pressions.
 
+### My-HRM (private)
+Application de gestion pour hotel-restaurant
 ---
 
 ## 📫 Contact & Réseaux sociaux

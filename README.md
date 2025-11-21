@@ -24,6 +24,9 @@ Ancien volcanologue, je me suis reconverti dans le développement web. Mon objec
 
 ## 🚀 Projets phares
 
+### [GERM-API](https://germ-api.lacombet.fr)
+Une API permettant de servir les données du GERM (Geochemical Earth Reference Model) pour le web au format JSON.
+
 ### [Thermobar](https://github.com/LacombeTr/thermoBarHub-FrontEnd)  
 WebApp de thermobarométrie, permettant de mesurer et analyser les conditions thermiques et pressions.
 

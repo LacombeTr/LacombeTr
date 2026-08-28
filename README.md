@@ -1,7 +1,7 @@
 # 👋 Salut, je suis Tristan Lacombe
 
 ### 🌋 Des volcans à développeur Full-Stack  
-Ancien volcanologue, je me suis reconverti dans le développement web. Mon objectif : participer à vos projets pour leur donner du sens !
+Reconverti dans le développement web après une carrière de volcanologue. Mon objectif : booster à vos projets pour leur donner du sens dans le monde actuel !
 
 ---
 

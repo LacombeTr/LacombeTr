@@ -27,14 +27,32 @@ médical de diagnostic in vitro, ISO 13485 / IEC 62304). Je recherche un poste �
 
 ## Stack
 
-| | |
-|---|---|
-| **Front** | TypeScript · React · Next.js · Angular · React Native · Vite · Tailwind CSS |
-| **Back** | NestJS · FastAPI · Express · TypeORM · Drizzle ORM · PostgreSQL · API REST, Swagger/OpenAPI |
-| **Qualité** | Jest · Supertest · Vitest · Cypress · pytest · ESLint, Prettier, Husky · CI/CD GitHub Actions |
-| **Infra** | Docker & Docker Compose · Linux · Nginx · AWS · Git |
-| **Données & SIG** | Python (pandas, NumPy, scikit-learn) · QGIS · Mapbox · Turf.js · D3.js · Observable · Plotly |
-| **Méthodes** | Agile / Scrum · développement assisté par IA (Claude Code) · environnement réglementé (ISO 13485, IEC 62304) |
+**Front**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-087EA4?style=flat-square&logo=react&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white) ![React Native](https://img.shields.io/badge/React%20Native-58C4DC?style=flat-square&logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+
+**Back**
+
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Express](https://img.shields.io/badge/Express-404D59?style=flat-square&logo=express&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![TypeORM](https://img.shields.io/badge/TypeORM-FE0803?style=flat-square&logo=typeorm&logoColor=white) ![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logo=drizzle&logoColor=black) ![Swagger](https://img.shields.io/badge/Swagger-6BA539?style=flat-square&logo=swagger&logoColor=white)
+
+
+**Qualité**
+
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) ![Supertest](https://img.shields.io/badge/Supertest-4B5563?style=flat-square) ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square&logo=cypress&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black)
+
+
+**Infra**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square) ![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+
+**Données & SIG**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat-square&logo=qgis&logoColor=white) ![Mapbox](https://img.shields.io/badge/Mapbox-000000?style=flat-square&logo=mapbox&logoColor=white) ![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3&logoColor=white) ![Observable](https://img.shields.io/badge/Observable-353E4B?style=flat-square&logo=observable&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+
+
+**Méthodes** — Agile / Scrum · développement assisté par IA (Claude Code) · environnement réglementé (ISO 13485, IEC 62304)
 
 ---
 
@@ -67,38 +85,29 @@ audit RGPD.
 </p>
 
 
-### Wash-Me · privé
+### My-HRM · privé
 
-> Dépôt `CleanMe` — l'interface porte encore ce nom sur les captures.
+Application de gestion pour hôtel-restaurant : réservations de chambres (arrivées, départs,
+recouches, petits-déjeuners), planning des tables du restaurant par salle et par service, suivi du
+ménage, gestion du personnel et des rôles, agences partenaires, abonnement Stripe.
 
-Application de gestion hôtelière : suivi du ménage des chambres, affectation du personnel,
-réservations au restaurant, gestion multi-agences, parcours de paiement Stripe.
+L'application fait respecter les règles du métier plutôt que de les laisser passer : jours de
+fermeture, créneaux de service, capacité des chambres selon les lits — chaque création est validée
+côté serveur.
 
-**Stack :** NestJS, TypeORM, PostgreSQL, Swagger, Stripe · React, Vite, Tailwind, Radix UI, Zustand,
-TanStack Query, PWA · monorepo npm workspaces, Docker Compose, déploiement sur VPS par SSH.
+**Stack :** NestJS, TypeORM, PostgreSQL, Swagger, Stripe · React, Vite, Tailwind, Radix UI,
+Zustand, TanStack Query, PWA · monorepo npm workspaces, Docker Compose, déploiement sur VPS par SSH.
 Tests Jest + Supertest côté API (unitaires, contrôleurs, e2e) et Vitest côté interface.
 Documentation technique : diagramme de classes, modèle de données, architecture de déploiement,
 plans de test.
 
 <p align="center">
-  <img src="assets/washme-dashboard.png" alt="Wash-Me — tableau de bord ménage" width="820">
+  <img src="assets/myhrm-planning-tables.png" alt="My-HRM — planning des tables du restaurant" width="820">
 </p>
-
-
-### Hotel & Restaurant Manager (HRM) · privé
-
-Gestion complète d'un hôtel-restaurant : chambres et typologies, réservations, arrivées et départs,
-petits-déjeuners, état des chambres en temps réel, plan de salle et timeline du restaurant,
-employés et rôles, statistiques.
-
-**Stack :** Next.js (App Router), React, TypeScript, Drizzle ORM + PostgreSQL, better-auth, Jotai,
-TanStack Query & Table, react-hook-form + Zod, Tailwind + Radix UI. Docker, déploiement en staging
-sur VPS.
 
 <p align="center">
-  <img src="assets/hrm-restaurant.png" alt="HRM — plan de salle du restaurant" width="820">
+  <img src="assets/myhrm-reservations-chambres.png" alt="My-HRM — réservations de chambres" width="820">
 </p>
-
 
 ### [Unofficial GERM API](https://github.com/LacombeTr/volcapi) · public
 
@@ -172,14 +181,32 @@ medical device, ISO 13485 / IEC 62304). I am looking for a role at the intersect
 
 ### Stack
 
-| | |
-|---|---|
-| **Front** | TypeScript · React · Next.js · Angular · React Native · Vite · Tailwind CSS |
-| **Back** | NestJS · FastAPI · Express · TypeORM · Drizzle ORM · PostgreSQL · REST APIs, Swagger/OpenAPI |
-| **Quality** | Jest · Supertest · Vitest · Cypress · pytest · ESLint, Prettier, Husky · GitHub Actions CI/CD |
-| **Infra** | Docker & Docker Compose · Linux · Nginx · AWS · Git |
-| **Data & GIS** | Python (pandas, NumPy, scikit-learn) · QGIS · Mapbox · Turf.js · D3.js · Observable · Plotly |
-| **Practices** | Agile / Scrum · AI-assisted development (Claude Code) · regulated environments (ISO 13485, IEC 62304) |
+**Front**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-087EA4?style=flat-square&logo=react&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white) ![React Native](https://img.shields.io/badge/React%20Native-58C4DC?style=flat-square&logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+
+**Back**
+
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Express](https://img.shields.io/badge/Express-404D59?style=flat-square&logo=express&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![TypeORM](https://img.shields.io/badge/TypeORM-FE0803?style=flat-square&logo=typeorm&logoColor=white) ![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logo=drizzle&logoColor=black) ![Swagger](https://img.shields.io/badge/Swagger-6BA539?style=flat-square&logo=swagger&logoColor=white)
+
+
+**Quality**
+
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) ![Supertest](https://img.shields.io/badge/Supertest-4B5563?style=flat-square) ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square&logo=cypress&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black)
+
+
+**Infra**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square) ![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+
+**Data & GIS**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat-square&logo=qgis&logoColor=white) ![Mapbox](https://img.shields.io/badge/Mapbox-000000?style=flat-square&logo=mapbox&logoColor=white) ![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3&logoColor=white) ![Observable](https://img.shields.io/badge/Observable-353E4B?style=flat-square&logo=observable&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+
+
+**Practices** — Agile / Scrum · AI-assisted development (Claude Code) · regulated environments (ISO 13485, IEC 62304)
 
 ### Projects
 
@@ -192,15 +219,13 @@ API, and a Python 3.12 FastAPI calculation service. CI runs lint, type checking,
 and pytest, plus `audit-ci` and `pip-audit` as blocking gates; tag-triggered deployment to a
 self-hosted runner. The repository documents a security audit and a GDPR audit.
 
-**Wash-Me** · private — Hotel management app: housekeeping tracking, staff assignment, restaurant
-bookings, multi-agency support, Stripe payment flow. NestJS + TypeORM + PostgreSQL + Swagger +
-Stripe; React + Vite + Tailwind + Radix UI + Zustand + PWA. Jest/Supertest API tests (unit,
-controller, e2e) and Vitest on the front end. Docker Compose, SSH deployment to a VPS.
-
-**Hotel & Restaurant Manager (HRM)** · private — Full hotel and restaurant management: rooms and
-room types, bookings, arrivals and departures, breakfasts, live room status, restaurant floor plan
-and timeline, employees and roles, statistics. Next.js App Router, React, Drizzle ORM + PostgreSQL,
-better-auth, Jotai, TanStack Query & Table, react-hook-form + Zod.
+**My-HRM** · private — Hotel and restaurant management app: room bookings (arrivals, departures,
+stayovers, breakfasts), restaurant table planning by room and service, housekeeping tracking, staff
+and roles, partner agencies, Stripe subscription. Business rules are enforced server-side rather
+than left to the UI: closing days, service time windows, room capacity derived from beds. NestJS +
+TypeORM + PostgreSQL + Swagger + Stripe; React + Vite + Tailwind + Radix UI + Zustand + PWA.
+Jest/Supertest API tests (unit, controller, e2e) and Vitest on the front end. Docker Compose, SSH
+deployment to a VPS.
 
 **[Unofficial GERM API](https://github.com/LacombeTr/volcapi)** · public — REST API serving the
 **GERM** (Geochemical Earth Reference Model) dataset as JSON — previously available only as HTML
